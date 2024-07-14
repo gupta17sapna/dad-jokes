@@ -1,0 +1,33 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-image: url('../src/assets/pexels-furkanfdemir-6310004.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+
+  h1 {
+    color: #ff9999;
+    margin-bottom: 20px;
+    font-size: 3em;
+  }
+
+  .dropdown-label {
+    margin-top: 10px;
+  }
+}
